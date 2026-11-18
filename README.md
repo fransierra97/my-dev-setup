@@ -134,21 +134,6 @@ I don't marry a single model: I switch depending on the task, cost and context s
 - Link notes to each other instead of filing them in deep folders.
 - If I solve something twice, it becomes a note.
 
-### 🤖 Working with AI agents
-
-```mermaid
-flowchart LR
-    A[💡 Idea / task<br/>Things] --> B[🧠 Context<br/>Obsidian]
-    B --> C[🤖 AI agents<br/>Warp · OpenBot]
-    C --> D[🧩 Review & refine<br/>PhpStorm]
-    D --> E[🧪 Test<br/>Docker · ServBay · Postman]
-    E --> F[🐙 Commit & PR<br/>GitHub Desktop]
-```
-
-- **Give the agent context**, not just an order: goal, constraints and the relevant files.
-- **Always review** what the AI writes in the IDE before committing.
-- **Use the right model for the job** and compare answers when a decision matters.
-
 ---
 
 <div align="center">

@@ -134,21 +134,6 @@ No me caso con un solo modelo: cambio según la tarea, el coste y el tamaño del
 - Enlazo notas entre sí en lugar de archivarlas en carpetas profundas.
 - Si resuelvo algo dos veces, se convierte en nota.
 
-### 🤖 Trabajar con agentes de IA
-
-```mermaid
-flowchart LR
-    A[💡 Idea / tarea<br/>Things] --> B[🧠 Contexto<br/>Obsidian]
-    B --> C[🤖 Agentes IA<br/>Warp · OpenBot]
-    C --> D[🧩 Revisar y pulir<br/>PhpStorm]
-    D --> E[🧪 Probar<br/>Docker · ServBay · Postman]
-    E --> F[🐙 Commit y PR<br/>GitHub Desktop]
-```
-
-- **Dar contexto al agente**, no solo una orden: objetivo, restricciones y los archivos relevantes.
-- **Revisar siempre** en el IDE lo que escribe la IA antes de hacer commit.
-- **Usar el modelo adecuado para cada tarea** y comparar respuestas cuando una decisión importa.
-
 ---
 
 <div align="center">
